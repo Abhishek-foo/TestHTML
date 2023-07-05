@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+    <h2>Fill the form</h2>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Login</legend>
+            <label><b>User Id</b></label>
+            <input type="text" name="email" placeholder="xyz@pqr.com" list="ID" required>
+            <datalist id="ID">
+                <option value="ID1"></option>
+                <option value="ID2"></option>
+                <option value="ID3"></option>
+            </datalist>
+            &nbsp;&nbsp;
+            <label><b>Password</b></label>
+            <input type="password" name="Password">
+            <br></br>
+            <input type="submit" value="Login">
+            <button type="button" onclick="alert('Enter Credentials')">Click me</button>
+        </fieldset>
+        <br></br>
+        <label><b>First Name</b></label>
+        <input type="text" name="First name" placeholder="Enter your first name">
+        &nbsp;&nbsp;
+        <label><b>Last Name</b></label>
+        <input type="text" name="Last Name" placeholder="Enter your last name">
+        <br></br>
+        <label><b>Enter Mobile No.</b></label>
+        <input type="tel" name="userphone" maxlength="10" placeholder="max 10">
+        <br></br>
+       <fieldset>
+        <label><b>Enter about yourself</b></label><br></br>
+        <textarea name="message" rows="15" cols="15" style="width: 100px; height: 100px; max-width: 150px; max-height: 150px;"></textarea>
+       </fieldset>
+       <input type="file" name="user photos" capture="User">
+       <label>User age</label>
+       <select name="user age">
+             <option value="40">40</option>
+             <option value="50">50</option>
+             <option value="60">60</option>
+             <option value="70">70</option>
+             <option value="80">80</option>
+        </select>
+
+
+
+    </form>
+</body>
+</html>

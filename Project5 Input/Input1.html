@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2><mark>Fill this form</mark></h2>
+    <form>
+        <h3>What is your name?</h3>
+        <label><b><big>First Name</big></b></label> &nbsp;&nbsp;
+        <input type="name" name="First Name" id="First Name">
+        &nbsp;&nbsp;
+        <label><b><big>Last Name</big></b></label> &nbsp;&nbsp;
+        <input type="name" name="Last Name" id="Last Name">
+        <br></br>
+        <label><b><big>Password</big></b></label> &nbsp;&nbsp;
+        <input type="password" name="Password">
+        <br></br>
+        <input type="submit" value="Signup">
+        <input type="reset" value="reset">
+        <br></br>
+        <h3>What is your Gender?</h3>
+        <input type="radio" name="Gender" value="Male">
+        <label><b><big>Male</big></b></label>
+        <input type="radio" name="Gender" value="Female">
+        <label><b><big>Female</big></b></label>
+        <br></br>
+        <h3>What is you hobby?</h3>
+        <input type="checkbox" name="hobby">
+        <label>Reading</label>
+        <br></br>
+        <input type="checkbox" name="hobby">
+        <label>Writing</label>
+        <br></br>
+        <input type="checkbox" name="hobby">
+        <label>singing</label>
+        <br></br>
+        <input type="button" value="Click me" onclick="alert('You have been hacked')">
+        <br></br>
+        <input type="color" name="bgcolor" value="fffff">
+        <label>Select color</label>
+        <br></br>
+        <input type="date" name="DOB" min="1998-01-01" max="2030-12-31"/>
+        <label>Date of Birth</label>
+        <br></br>
+        <input type="number">
+        <label>Mention number</label>
+        <br></br>
+        <input type="datetime-local"/>
+        <label>Mention date and time</label>
+        <br></br>
+        <input type="file" accept="image/*">
+        <label>choose photos to upload</label>
+        <br></br>
+        <input type="range" max="100" min="0" step="10">
+        <label>Select Range</label>
+    </form>
+</body>
+</html>
